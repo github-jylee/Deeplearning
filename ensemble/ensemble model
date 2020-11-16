@@ -1,0 +1,27 @@
+# https://machinelearningmastery.com/voting-ensembles-with-python/
+Hard voting: summing up votes, predict the class with the most votes
+Soft voting: summing the predicted probabilities for class labels and predicitng the class label with the largest sum probability
+
+voting ensemble: combine other models for classification or regression
+
+use when: 
+1. models generally the same good performance, mostly already agree
+2. better perform than a signle model or results in lower variance than any model used
+
+effective when:
+- stochastic gradient descent algorithm
+- fits different hyperparameters
+
+extension:
+- via WAE (weighted Average Ensemble) - blending
+- via Stacked Generalization - stacking
+
+"The voting ensemble is not guaranteed to provide better performance than any single model used in the ensemble."
+-> 뭐가 나을지는 모름
+
+------------------------
+LightGBM
+- gradient boosting framework, tree based
+- 트리가 수직적으로 확장 : leaf-wise not level-wise
+
+- overfitting에 민감, 과적합 쉬움, 10,000이상에서 권유
