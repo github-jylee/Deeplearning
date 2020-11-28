@@ -13,8 +13,4 @@ parameter and hyperparameters
 
 화:https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html
 
-수:
-
-목:
-
-금: 질문 목록 정리
+모델 간 성능비교는 val loss나 accuracy로
